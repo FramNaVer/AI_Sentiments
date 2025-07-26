@@ -1,0 +1,48 @@
+/* ---------- 🔧 Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #222;
+  font-size: 16px;
+}
+
+/* ---------- 🎯 Header ---------- */
+.header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(185, 185, 185, 0.04);
+}
+.header h1 {
+  font-size: 2.2rem;
+}
+.header p {
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+/* ---------- 📤 Upload Box ---------- */
+.upload-box {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  margin-top: 4rem;
+}
+.upload-box p {
+  font-size: 0.95rem;
+}
+
+
+.column-box{
+    background-color: #000;
+}
+
+
+

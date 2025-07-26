@@ -1,0 +1,86 @@
+# 🚫 ไฟล์ model ขนาดใหญ่ และ AI artifacts
+bert_sentiment/bert_sentiment/model.safetensors
+bert_sentiment/bert_sentiment/*.bpe.model
+bert_sentiment/bert_sentiment/sentencepiece.bpe.model
+bert_sentiment/label_encoder.pkl
+bert_sentiment/bert_sentiment/config.json
+bert_sentiment/bert_sentiment/special_tokens_map.json
+bert_sentiment/bert_sentiment/tokenizer_config.json
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.pth
+*.pt
+*.tflite
+*.pkl
+*.joblib
+
+# 🤫 ไฟล์ config/token ที่อ่อนไหว
+.secrets.toml
+*.toml
+.streamlit/secrets.toml
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.crt
+config.ini
+settings.json
+
+# 🧪 Jupyter notebook checkpoints (ถ้ามี)
+.ipynb_checkpoints/
+
+# 🧹 Pycache และไฟล์ compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# 💾 Log files
+*.log
+
+# 📦 virtualenv / environment
+.env
+.venv/
+env/
+venv/
+
+# 🖼️ ไฟล์ภาพตัวอย่าง (ถ้าไม่ได้ใช้ใน repo จริง)
+# *.png  # ปิดการ ignore png ชั่วคราว เพราะอาจต้องใช้
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tiff
+
+# 📊 ไฟล์ข้อมูลขนาดใหญ่
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+data/
+datasets/
+raw_data/
+
+# 🗃️ ไฟล์ระบบ
+.DS_Store
+Thumbs.db
+
+# 🔧 IDE และ Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🚀 Build และ Distribution
+build/
+dist/
+*.egg-info/
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/ 
